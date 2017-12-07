@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+.container {
+  width:100%
+  display:inline-flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  text-align: center;
+}
+.box1 {
+    width:50%;
+    height:80px;
+  }
+.box2 {
+  width:25%
+  height:50px
+}
+
+.header_0 {
+  order:1 ;
+  background-color: #fafafa;
+  border: 3px solid #581845;
+	width: 100%;
+	text-align: center;
+  align-items: flex-start;
+  height:auto;
+    color: #900c3f;
+    font-family: "Paint the Sky";
+            text-shadow: 2px 2px #ffc305;
+          font-size: 80px ;
+}
+
+
+.header_1 {
+  background-color: #fafafa;
+  border: 3px solid #ff5733;
+  width: 50%;
+	text-align: center;
+  align-items: center
+  height:auto;
+    color: #900c3f;
+      font-family: 'Moinho';
+        text-shadow: 2px 2px #ffc305;
+}
+.para_1 {
+  background-color: #fafafa;
+  border: 3px solid #581845;
+  width: 50%;
+  text-align: center;
+  height:auto;
+  color:#581845
+    text-shadow: 2px 2px #ffc305;
+}
+
+.header_2 {
+  background-color: #fafafa;
+  border: 3px solid #ff5733;
+
+  width: 50%;
+	text-align: center;
+  align-content: center;
+  height:auto;
+    color: #900c3f;
+      font-family: 'Moinho';
+        text-shadow: 2px 2px #ffc305;
+}
+
+.header_3 {
+  background-color: #fafafa;
+  border: 3px solid #ff5733;
+
+  width: 50%;
+	text-align: center;
+  align-content: center;
+  height:auto;
+    color: #900c3f;
+      font-family: 'Moinho';
+        text-shadow: 2px 2px #ffc305;
+}
+
+.para_2 {
+  background-color: #fafafa;
+  border: 3px solid #581845;
+
+  width: 50%;
+  text-align: center;
+  height:auto;
+  color:#581845
+    text-shadow: 2px 2px #ffc305;
+}
+
+.para_3 {
+  background-color: #fafafa;
+  border: 3px solid #581845;
+  width: 75%;
+  text-align: center;
+  height:auto;
+  color:#581845
+    text-shadow: 2px 2px #ffc305;
+}
+.paragraph {
+  font-size: 20px;
+  font-family: 'Moinho';
+  line-height: 1.45em;
+  text-indent: 1.5em;
+}
+
+
+
+p {
+  font-size: 30px;
+  font-family: "Paint the Sky";
+  color:#581845;
+    text-shadow: 2px 2px #ff5733;
+}
+
+p-2 {
+  font-size: 30px;
+  font-family: "Paint the Sky";
+  color:#581845;
+    text-shadow: 2px 2px #ff5733;
+  }
+p-3 {
+  font-size: 30px;
+  font-family: "Paint the Sky";
+  color:#581845;
+    text-shadow: 2px 2px #ff5733;
+}
+
+@media screen and (max-width: 550px) {
+.header_0 {
+  width: 100%
+
+}
+.header_1, .header_2 {
+  width: 50%
+}
+.para_1, .para_2  {
+  width: 50%;
+}
